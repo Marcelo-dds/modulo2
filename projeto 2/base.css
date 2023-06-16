@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgba(7, 14, 221, 0.279);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgba(117, 115, 119, 0.279);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 700px;
+    padding: 20px;
+    text-align: left;
+}
+.footer {
+    background-color: rgba(117, 115, 119, 0.279);
+    min-height: 50px;
+}
+.final{
+    
+    text-align: center;
+    color: rgb(55, 58, 58);
+}
+.te strong{
+    color: rgb(155, 59, 59);
+    
+    
+}
+
+table thead th{
+    
+    background-color:black;
+    color: rgb(252, 252, 252);
+}
+.hora strong{
+    text-align: right; 
+    color: rgb(127, 60, 165);
+
+}
+table tbody tr:nth-child(even) td{
+    background-color: rgb(158, 209, 192);
+}
+table tbody tr:hover td{
+    background-color: rgb(132, 212, 186);
+}
